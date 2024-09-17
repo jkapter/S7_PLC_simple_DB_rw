@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/icon.ico</file>
+        <file>img/icon200x200.png</file>
+        <file>img/PLCRW.rc</file>
+        <file>img/siberia-logo162x43.png</file>
+        <file>img/sysparams_en.txt</file>
+        <file>img/sysparams_ru.txt</file>
+        <file>S7_DB_reader_ru_en.qm</file>
+    </qresource>
+</RCC>

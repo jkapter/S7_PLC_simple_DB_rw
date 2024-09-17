@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>678</width>
+    <height>472</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Установка параметров ПЛК</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resrc.qrc">
+    <normaloff>:/img/icon200x200.png</normaloff>:/img/icon200x200.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="la_plc_status">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>390</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="la_status_bar_message">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>390</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>678</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="write_params_to_file"/>
+    <addaction name="read_params_from_file"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>ПЛК</string>
+    </property>
+    <addaction name="write_this_value_to_plc"/>
+    <addaction name="wrire_this_page_to_plc"/>
+    <addaction name="write_all_params_to_plc"/>
+    <addaction name="separator"/>
+    <addaction name="update_values"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Опции</string>
+    </property>
+    <addaction name="make_pattern_sysparams"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>Язык</string>
+    </property>
+    <addaction name="set_language_ru"/>
+    <addaction name="set_language_en"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="write_params_to_file">
+   <property name="text">
+    <string>Сохранить значения в файл...</string>
+   </property>
+  </action>
+  <action name="read_params_from_file">
+   <property name="text">
+    <string>Загрузить значения из файла...</string>
+   </property>
+  </action>
+  <action name="write_all_params_to_plc">
+   <property name="text">
+    <string>Записать все значения в ПЛК</string>
+   </property>
+  </action>
+  <action name="wrire_this_page_to_plc">
+   <property name="text">
+    <string>Записать текущую страницу в ПЛК</string>
+   </property>
+  </action>
+  <action name="write_this_value_to_plc">
+   <property name="text">
+    <string>Записать выбранные строки в ПЛК</string>
+   </property>
+  </action>
+  <action name="make_pattern_sysparams">
+   <property name="text">
+    <string>Сформировать шаблон файла параметров</string>
+   </property>
+  </action>
+  <action name="update_values">
+   <property name="text">
+    <string>Обновить значения</string>
+   </property>
+  </action>
+  <action name="set_language_ru">
+   <property name="text">
+    <string>Русский</string>
+   </property>
+  </action>
+  <action name="set_language_en">
+   <property name="text">
+    <string notr="true">English</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

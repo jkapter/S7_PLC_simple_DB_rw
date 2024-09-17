@@ -1,0 +1,32 @@
+//Configuration file for SIMATIC S7 PLC.
+//
+//Rows started with "//", are comments which are ignored while parsing file.
+//Parameters divide by sections.
+//Section is a text inside square brackets, i.e. "[This is section]".
+//Parameter row text format:
+// - address (DB10.DBB0, DB50.DBW36, DB20.DBD10, ...)
+// - data type (BYTE, WORD, DWORD, INT, DINT, REAL, S5TIME, TIME, BOOL)
+// - minimum value
+// - maximum value
+// - gain value (PLC data will multiply by this nomber) 
+// - parameter name
+[Speeds]
+DB10.DBD0	REAL	0	999	10	Test variable REAL
+DB10.DBD0	RAL	0	999	10	Test variable REAL
+DB10.DBW4	INT	0	100	1	Test variable INT
+DB10.DBD6	DINT	0	2500	10	Test variable DINT
+DB10.DBB10	BYTE	0	999	1	Test variable Byte
+DB10.DBW12	WORD	0	999	1	Test variable WORD
+DB10.DBX14.3	BOOL	0	1	1	Test variable BOOL
+
+[Speeds 2]
+DB10.DBD16	REAL	0	999	1	Test variable REAL
+DB10.DBW20	INT	0	100	1	Test variable INT
+DB10.DBD22	DINT	0	2500	1	Test variable DINT
+DB10.DBB26	BYTE	0	999	1	Test variable Byte
+DB10.DBW28	WORD	0	999	1	Test variable WORD
+DB10.DBX30.5	BOOL	0	1	1	Test variable BOOL
+
+
+
+

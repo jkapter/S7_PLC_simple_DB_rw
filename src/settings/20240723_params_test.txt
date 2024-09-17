@@ -1,0 +1,20 @@
+\\fswfsf
+\\rewfsdfds
+\\dfsgdfsgdfsgdfs
+\\fsgdfsg
+
+[Скорости линии]
+DB10.DBD0	REAL	0	999	10	Тестовая переменная REAL	=256.00
+DB10.DBW4	INT	0	100	1	Тестовая переменная INT	=55
+DB10.DBD6	DINT	0	2500	10	Тестовая переменная DINT	=200
+DB10.DBB10	BYTE	0	999	1	Тестовая переменная Byte	=B#16#AA
+DB10.DBW12	WORD	0	999	1	Тестовая переменная WORD	=W#16#21
+DB10.DBX14.3	BOOL	0	1	1	Тестовая переменная BOOL	=FALSE
+
+[Скорости линии 2]
+DB10.DBD16	REAL	0	999	1	Тестовая переменная REAL	=1.25
+DB10.DBW20	INT	0	100	1	Тестовая переменная INT	=20
+DB10.DBD22	DINT	0	2500	1	Тестовая переменная DINT	=200
+DB10.DBB26	BYTE	0	999	1	Тестовая переменная Byte	=B#16#CC
+DB10.DBW28	WORD	0	999	1	Тестовая переменная WORD	=W#16#DDDD
+DB10.DBX30.5	BOOL	0	1	1	Тестовая переменная BOOL	=TRUE
