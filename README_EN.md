@@ -15,5 +15,5 @@ S7-300, -400, -1x500 series are supported.
 It can be used whith S7-1x00 series only with Standard access to Data Block. Option "Optimized data access" should be off for DB that would be read/write.
 
 Data types BOOL, BYTE, WORD, DWORD, S5TIME, TIME, INT, DINT, REAL are supported.
-![Application window](https://github.com/jkapter/S7_PLC_simple_DB_rw/blob/master/src/img/sysparams_e.png)
+![Application window](https://github.com/jkapter/S7_PLC_simple_DB_rw/blob/master/src/img/screenshot_e.png)
 ![Parameters file](https://github.com/jkapter/S7_PLC_simple_DB_rw/blob/master/src/img/sysparams_e.png)

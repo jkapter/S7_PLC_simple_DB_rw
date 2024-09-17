@@ -16,5 +16,5 @@
 
 Возможно сохранение значений в файл и загрузка ранее сохраненных значений из файла.
 
-![Application window](https://github.com/jkapter/S7_PLC_simple_DB_rw/blob/master/src/img/sysparams_r.png)
+![Application window](https://github.com/jkapter/S7_PLC_simple_DB_rw/blob/master/src/img/screenshot_r.png)
 ![Parameters file](https://github.com/jkapter/S7_PLC_simple_DB_rw/blob/master/src/img/sysparams_r.png)
