@@ -25,7 +25,7 @@ MainWindow::MainWindow(QWidget *parent)
     update_values_btn_ = new QPushButton(this);
     update_values_btn_->setMinimumHeight(45);
     QLabel* logo_lab = new QLabel(this);
-    QPixmap logo_pix (":/img/siberia-logo162x43.png");
+    QPixmap logo_pix (":/img/logo_162x43.png");
     logo_lab->setPixmap(logo_pix);
 
     grl->addWidget(tree_, 0, 0, 2, 1);

@@ -7,5 +7,6 @@
         <file>img/sysparams_en.txt</file>
         <file>img/sysparams_ru.txt</file>
         <file>S7_DB_reader_ru_en.qm</file>
+        <file>img/logo_162x43.png</file>
     </qresource>
 </RCC>
